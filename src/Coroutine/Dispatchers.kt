@@ -12,4 +12,5 @@ fun main() = runBlocking {
     launch (Dispatchers.Default) {
         println("Dispacthers.Default")
     }
+    println()
 }
